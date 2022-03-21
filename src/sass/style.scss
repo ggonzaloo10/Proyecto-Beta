@@ -13,24 +13,36 @@ line-height: variables.$unit*5;
 padding: variables.$unit*2;
 color: variables.$white-color;
 text-align: right;
-  }
+}
 
-  h2 {
+h2 {
     font-family: 'Catamaran';
     font-style: normal;
     font-weight: 700;
     font-size:variables.$unit*3;
     line-height: variables.$unit*3;
-padding: variables.$unit*2;
-  }
+    padding: variables.$unit*2;
+}
 
-  ul{
+ul {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: variables.$unit*2.25;
-    padding: variables.$unit*1.75;
+    padding: 0 variables.$unit*1.75;
     list-style: none;
     margin: 0 variables.$unit*2;
-  }
+}
+
+a{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: variables.$unit*2.25;
+color: variables.$first-color;
+text-decoration: none;
+padding-bottom: variables.$unit*4;
+padding-right: variables.$unit*4;
+}
