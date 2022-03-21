@@ -85,7 +85,6 @@ Los archivos scss son los encargados de aportar los estilos necesarios a los ele
     - _typo.scss
   - htmlelements/
     - _buttons.scss
-    - _tags.scss
     - _links.scss
     - _typography.scss
   - structure/
@@ -94,8 +93,6 @@ Los archivos scss son los encargados de aportar los estilos necesarios a los ele
     - _main.scss
     - _header.scss
     - _cards.scss
-    - _newsletter.scss
-    - _navigation.scss
     - _footer.scss
   - site/
     - _site.scss
