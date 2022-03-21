@@ -82,11 +82,10 @@ Para el espaciado la unidad base será 8px, de la cual se emplearán sus múltip
 #### **Color**
 
 La paleta de colores a utilizar en este proyecto estará declarada de la siguiente manera.
-
-// COLOR PRINCIPAL TEXTOS, TITULOS, Y DESTACADOS
+#### **COLOR PRINCIPAL TEXTOS, TITULOS, Y DESTACADOS**
 $first-color: hsla(178, 95%, 16%, 1);
 
-// COLOR LOGOS Y CONTRASTES
+#### **COLOR LOGOS Y CONTRASTES**
 $logo-color: hsla(44, 99%, 64%, 1);
 
 $white-color: white;
