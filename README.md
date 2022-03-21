@@ -50,19 +50,7 @@ Para la localización rápida de archivos sass emplearemos etiquetas en texto co
 
 ## **Estructura del respositorio del proyecto**
 
-Para nuestro proyecto aplicaremos la metodología de ramas de Gitflow, basada en cinco palabras clave, estas determinaran la estructura de nuestro repositorio.
 
-En primer lugar, tenderemos la rama principal llamada **main**, donde está el código definitivo. No se debe trabajar directamente sobre ella.
-
-La segunda rama mas importante de nuestro repositorio será la **develop**, donde se guardan las nuevas funcionalidades del proyecto. (No hacer commits directamente sobre ella.)
-
-Para el desarrollo de las nuevas funcionalidades crearemos una rama nueva, para cada funcionalidad, que salga de la nombrada anteriormente, y la llamaremos **feature/funcionalidad**. Al finalizar la nueva funcionalidad la mezclamos con la rama Develop para que los cambios queden allí guardados. (Una vez mezclada estas ramas, se puede borrar la Feature.)
-
-Es importante tener una rama llamada **hotfix**, se encarga de solucionar los incidentes. (Esta rama debe ser generada a partir de la Main.)
-
-Al implementar las features en la develop, pueden surgir errores. Para solucionar estos errores se crea una rama **hotfix-error** a partir de la develop, en la que se soluciona el error y se realiza un pull request a la rama develop.
-
-Por últimos tendremos la rama **releaes**, se utiliza para la entrega a producción o ambiente real. En ella se harán las pruebas para el cliente. (Una vez terminada la prueba si no tiene ningún fallo se mezcla con la rama Main.)
 
 
 
@@ -73,36 +61,17 @@ Los archivos scss son los encargados de aportar los estilos necesarios a los ele
 ### **Estructura del repositorio sass/**
 
 - sass/
+  - header.scss
+  - site.scss
   - style.scss
-  - variables/
-    - _color-vars.scss
-    - _spaces-vars.scss
-    - _typography-vars.scss
-  - utilities/
-    - _functions.scss
-    - _mixins.scss
-  - style/
-    - _typo.scss
-  - htmlelements/
-    - _buttons.scss
-    - _links.scss
-    - _typography.scss
-  - structure/
-    - grid.scss
-  - layout/
-    - _main.scss
-    - _header.scss
-    - _cards.scss
-    - _footer.scss
-  - site/
-    - _site.scss
+  - variables.scss
 
 El archivo main.sass nos indica el path de los elementos así como su nombre. Todos los archivos sass tienen una etiqueta para facilitar su localización mediante la búsqueda de nuestro editor (Cmd/Ctrl + f) y acceder a ellos fácilmente.
 
 
 ### **Variables**
 
-Las variables que se emplearán en este proyecto se encuentra en el archivo sass/utilites/_variables.scss. Estas variables globales definen los colores, el espaciado y las tipografías de todo el documento.
+Las variables que se emplearán en este proyecto se encuentra en el archivo sass/variables.scss. Estas variables globales definen los colores, el espaciado y las tipografías de todo el documento.
 
 #### **Espaciado**
 
@@ -114,12 +83,17 @@ Para el espaciado la unidad base será 8px, de la cual se emplearán sus múltip
 
 La paleta de colores a utilizar en este proyecto estará declarada de la siguiente manera.
 
-- $color-white
-- $color-black
-- $color-grey
-- $color-main
-- $color-orange
-- $color-blue
+// COLOR PRINCIPAL TEXTOS, TITULOS, Y DESTACADOS
+$first-color: hsla(178, 95%, 16%, 1);
+
+// COLOR LOGOS Y CONTRASTES
+$logo-color: hsla(44, 99%, 64%, 1);
+
+$white-color: white;
+
+$second-color:hsla(29, 98%, 50%, 1);
+
+$third-color: hsla(38, 98%, 50%, 1);
 
 #### **Fuentes**
 
