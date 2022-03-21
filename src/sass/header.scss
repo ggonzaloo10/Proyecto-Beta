@@ -1,0 +1,12 @@
+@use 'variables';
+
+header{
+    top: 0px;
+    width: 100%;
+    height: 64px;
+    padding: variables.$unit*1.5;
+    background-color: variables.$first-color;
+    color: variables.$logo-color;
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,36 @@
+@use 'variables';
+
+body{
+ background-color: variables.$white-color;
+}
+
+h1 {
+    font-family: 'Catamaran';
+font-style: normal;
+font-weight: 900;
+font-size: variables.$unit*4;
+line-height: variables.$unit*5;
+padding: variables.$unit*2;
+color: variables.$white-color;
+text-align: right;
+  }
+
+  h2 {
+    font-family: 'Catamaran';
+    font-style: normal;
+    font-weight: 700;
+    font-size:variables.$unit*3;
+    line-height: variables.$unit*3;
+padding: variables.$unit*2;
+  }
+
+  ul{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: variables.$unit*2.25;
+    padding: variables.$unit*1.75;
+    list-style: none;
+    margin: 0 variables.$unit*2;
+  }
