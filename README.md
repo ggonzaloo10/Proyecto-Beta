@@ -105,5 +105,5 @@ $third-color: hsla(38, 98%, 50%, 1);
 En cuanto a las fuentes, se han elegido estás dos. Catamaran se empleará para títulos y subtítulos. En cuanto a Montserrat se usará para el cuerpo del documento. De la misma manera se definirá el tamaño de fuente tanto de títulos como del cuerpo en función de la resolución de la pantalla.
 
 // TIPOGRAFIAS
-$text-font: 'Montserrat', sans-serif;
-$title-font: 'Catamaran', sans-serif;
+- $text-font: 'Montserrat', sans-serif;
+- $title-font: 'Catamaran', sans-serif;
