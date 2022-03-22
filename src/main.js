@@ -1,4 +1,4 @@
-// console.log('hola parcel')
+console.log('hola parcel')
 
 import './sass/site.scss';
 import './sass/style.scss';

@@ -5,7 +5,7 @@
 //
 // anything defined in a previous bundle is accessed via the
 // orig method which is the require for previous bundles
-parcelRequire = (function (modules, cache, entry, globalName) {
+var parcelRequire = (function (modules, cache, entry, globalName) {
   // Save the require from previous bundle to this closure if any
   var previousRequire = typeof parcelRequire === 'function' && parcelRequire;
   var nodeRequire = typeof require === 'function' && require;
@@ -109,7 +109,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   // Override the current require with this new one
-  parcelRequire = newRequire;
+  var parcelRequire = newRequire;
 
   if (error) {
     // throw error from earlier, _after updating parcelRequire_
@@ -230,7 +230,7 @@ require("./sass/utilities.scss");
 
 var _module = require("./module.js");
 
-// console.log('hola parcel')
+console.log('hola parcel');
 console.log((0, _module.saludar)());
 },{"./sass/site.scss":"sass/site.scss","./sass/style.scss":"sass/style.scss","./sass/header.scss":"sass/header.scss","./sass/utilities.scss":"sass/utilities.scss","./module.js":"module.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
@@ -260,7 +260,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57294" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64059" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
