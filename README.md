@@ -15,7 +15,7 @@ Debes crear un pull request al proyecto.
 ## **Programas utilizados**
 El proyecto se ha construido con los siguientes programas:
 - Para el diseño:
-  - <a href="https://www.figma.com/">Figma</a>: diseño de wireframes.<a href="https://www.figma.com/file/FooHmKbTH2lbDp5CkseU8u/Gonzalo-projectalpha?node-id=417%3A536">Enlace al proyecto Beta en Figma</a>
+  - <a href="https://www.figma.com/">Figma</a>: diseño de wireframes. =><a href="https://www.figma.com/file/FooHmKbTH2lbDp5CkseU8u/Gonzalo-projectalpha?node-id=417%3A536">Enlace al proyecto Beta en Figma</a>
   - <a href="https://www.adobe.com/products/illustrator.html">Illustrator</a>: diseño de logotipo e iconos.
 - Para el desarrollo:
   - <a href="https://code.visualstudio.com/">Visual Studio Code</a>: editor de código fuente.
