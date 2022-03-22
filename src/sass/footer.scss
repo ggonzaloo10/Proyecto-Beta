@@ -1,0 +1,45 @@
+@use 'variables';
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    left: 0px;
+    top: 0px;
+    background: variables.$first-color;
+
+}
+
+.logos-wrap{
+    display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+padding: variables.$medium-space 0 variables.$medium-space variables.$medium-space;
+}
+
+.wrap_item{
+    margin: variables.$mini-space variables.$mini-space;
+}
+
+
+.logo-trinity{
+    width: 102px;
+    height: 53px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://docenciayformacion.es/wp-content/uploads/2020/01/logo-vector-trinity-college-london.jpg);
+}
+
+.logo-cambridge{
+    width: 102px;
+    height: 53px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://sagradosanluis.edu.mx/wp-content/uploads/2019/07/cambridge-logo-web-contenido.jpg);
+}

@@ -103,5 +103,46 @@ header {
 .centrar-item {
   justify-content: center;
 }
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  left: 0px;
+  top: 0px;
+  background: #02504d;
+}
+
+.logos-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0 16px 16px;
+}
+
+.wrap_item {
+  margin: 14px 14px;
+}
+
+.logo-trinity {
+  width: 102px;
+  height: 53px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(https://docenciayformacion.es/wp-content/uploads/2020/01/logo-vector-trinity-college-london.jpg);
+}
+
+.logo-cambridge {
+  width: 102px;
+  height: 53px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(https://sagradosanluis.edu.mx/wp-content/uploads/2019/07/cambridge-logo-web-contenido.jpg);
+}
 
 /*# sourceMappingURL=/main.1f19ae8e.css.map */
