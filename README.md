@@ -78,6 +78,12 @@ Las variables que se emplearán en este proyecto se encuentra en el archivo sass
 Para el espaciado la unidad base será 8px, de la cual se emplearán sus múltiplos en función del espaciado que necesitemos.
 
 - $space-unit: 8px;
+- $mini-space: $unit*1.75;
+- $medium-space: $unit*2;
+- $space: $unit*2.25;
+- $big-space: $unit*3;
+- $xl-space: $unit*4;
+- $xxl-space: $unit*5;
 
 #### **Color**
 
@@ -96,12 +102,8 @@ $third-color: hsla(38, 98%, 50%, 1);
 
 #### **Fuentes**
 
-En cuanto a las fuentes, se han elegido estás dos. Poppins se empleará para títulos y subtítulos. En cuanto a Work Sans se usará para el cuerpo del documento. De la misma manera se definirá el tamaño de fuente tanto de títulos como del cuerpo en función de la resolución de la pantalla.
+En cuanto a las fuentes, se han elegido estás dos. Catamaran se empleará para títulos y subtítulos. En cuanto a Montserrat se usará para el cuerpo del documento. De la misma manera se definirá el tamaño de fuente tanto de títulos como del cuerpo en función de la resolución de la pantalla.
 
-- $font-family-main: 'Work Sans', sans-serif;
-- $font-family-sec: 'Poppins', sans-serif;
-
-- $font-size-title-mobile
-- $font-size-title-deskopt
-- $font-size-body-mobile
-- $font-size-body-deskopt
+// TIPOGRAFIAS
+- $text-font: 'Montserrat', sans-serif;
+- $title-font: 'Catamaran', sans-serif;
