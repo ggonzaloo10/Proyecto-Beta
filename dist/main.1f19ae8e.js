@@ -5,7 +5,7 @@
 //
 // anything defined in a previous bundle is accessed via the
 // orig method which is the require for previous bundles
-var parcelRequire = (function (modules, cache, entry, globalName) {
+parcelRequire = (function (modules, cache, entry, globalName) {
   // Save the require from previous bundle to this closure if any
   var previousRequire = typeof parcelRequire === 'function' && parcelRequire;
   var nodeRequire = typeof require === 'function' && require;
@@ -109,7 +109,7 @@ var parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   // Override the current require with this new one
-  var parcelRequire = newRequire;
+  parcelRequire = newRequire;
 
   if (error) {
     // throw error from earlier, _after updating parcelRequire_
