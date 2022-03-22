@@ -78,6 +78,12 @@ Las variables que se emplearán en este proyecto se encuentra en el archivo sass
 Para el espaciado la unidad base será 8px, de la cual se emplearán sus múltiplos en función del espaciado que necesitemos.
 
 - $space-unit: 8px;
+- $mini-space: $unit*1.75;
+- $medium-space: $unit*2;
+- $space: $unit*2.25;
+- $big-space: $unit*3;
+- $xl-space: $unit*4;
+- $xxl-space: $unit*5;
 
 #### **Color**
 
