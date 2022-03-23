@@ -28,8 +28,8 @@ El proyecto se ha construido con los siguientes programas:
 La convención de nombre para las clases de los elementos sigue el patrón BEM:
 
 - .bloque{}
-- .bloque__elemento{}
-- .bloque--modificador{}
+- .bloque_elemento{}
+- .bloque-modificador{}
 
 '.bloque' representa el primer nivel de una abstracción o componente, es el elemento padre.
 '.bloque__elemento' representa un hijo del elemento padre '.bloque'.
