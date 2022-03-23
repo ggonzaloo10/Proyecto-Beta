@@ -62,6 +62,7 @@ Los archivos scss son los encargados de aportar los estilos necesarios a los ele
 
 - sass/
   - header.scss
+  - footer.scss
   - site.scss
   - style.scss
   - variables.scss
