@@ -14,6 +14,7 @@ $third-color: hsla(38, 98%, 50%, 1);
 
 // UNIDADES 
 $unit: 8px;
+$micro-space: $unit/2;
 $mini-space: $unit*1.75;
 $medium-space: $unit*2;
 $space: $unit*2.25;
@@ -22,5 +23,5 @@ $xl-space: $unit*4;
 $xxl-space: $unit*5;
 
 // TIPOGRAFIAS
-$text-font: 'Montserrat', sans-serif;
+$text-font: 'Raleway', sans-serif;
 $title-font: 'Catamaran', sans-serif;

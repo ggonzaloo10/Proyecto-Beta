@@ -16,11 +16,6 @@ align-items: center;
 padding: variables.$medium-space 0 variables.$medium-space variables.$medium-space;
 }
 
-.wrap_item{
-    margin: variables.$mini-space 0;
-}
-
-
 .logo-trinity{
     width: 102px;
     height: 53px;
@@ -56,6 +51,7 @@ padding: 0px;
 }
 
 .rrss_item{
+    display: flex;
     padding: 0;
 }
 

@@ -31,7 +31,7 @@ h3{
     color: variables.$logo-color;
     font-size:variables.$big-space;
     line-height: variables.$big-space;
-    padding: variables.$medium-space;
+    padding: variables.$medium-space variables.$medium-space variables.$micro-space;
 }
 
 ul {

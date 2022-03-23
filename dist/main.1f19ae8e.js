@@ -212,17 +212,16 @@ module.hot.accept(reloadCSS);
 },{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"module.js":[function(require,module,exports) {
 "use strict";
 
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.saludar = void 0;
+require("./sass/site.scss");
 
-var saludar = function saludar() {
-  return 'hola parcel desde module';
-};
+require("./sass/style.scss");
 
-exports.saludar = saludar;
-},{}],"main.js":[function(require,module,exports) {
+require("./sass/header.scss");
+
+require("./sass/utilities.scss");
+
+require("./sass/footer.scss");
+},{"./sass/site.scss":"sass/site.scss","./sass/style.scss":"sass/style.scss","./sass/header.scss":"sass/header.scss","./sass/utilities.scss":"sass/utilities.scss","./sass/footer.scss":"sass/footer.scss"}],"main.js":[function(require,module,exports) {
 "use strict";
 
 require("./sass/site.scss");
