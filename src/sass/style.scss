@@ -24,13 +24,23 @@ h2 {
     padding: variables.$medium-space;
 }
 
+h3{
+    font-family: variables.$title-font;
+    font-style: normal;
+    font-weight: 700;
+    color: variables.$logo-color;
+    font-size:variables.$big-space;
+    line-height: variables.$big-space;
+    padding: variables.$medium-space;
+}
+
 ul {
     font-family: variables.$text-font;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
-    line-height: variables.$space;
-    padding: 0 variables.$mini-space;
+    line-height: variables.$big-space;
+    padding: 0;
     list-style: none;
     margin: 0 variables.$medium-space variables.$unit;
 }

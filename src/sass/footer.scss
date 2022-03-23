@@ -3,10 +3,9 @@
 footer{
     display: flex;
     flex-wrap: wrap;
-    left: 0px;
-    top: 0px;
+    justify-content: space-between;
     background: variables.$first-color;
-
+    padding: variables.$space;
 }
 
 .logos-wrap{
@@ -18,7 +17,7 @@ padding: variables.$medium-space 0 variables.$medium-space variables.$medium-spa
 }
 
 .wrap_item{
-    margin: variables.$mini-space variables.$mini-space;
+    margin: variables.$mini-space 0;
 }
 
 
@@ -42,4 +41,29 @@ padding: variables.$medium-space 0 variables.$medium-space variables.$medium-spa
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url(https://sagradosanluis.edu.mx/wp-content/uploads/2019/07/cambridge-logo-web-contenido.jpg);
+}
+
+.rrss{
+    width: 100%;
+    flex: none;
+order: 3;
+flex-grow: 0;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+justify-content: space-between;
+padding: 0px;
+}
+
+.rrss_item{
+    padding: 0;
+}
+
+.footer_item a{
+    color: variables.$white-color;
+}
+
+.footer_item:nth-child(2){
+    width: 60%;
+    max-width: 324px;
 }
