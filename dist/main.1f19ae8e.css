@@ -192,20 +192,47 @@ nav {
   background-color: #02504d;
   list-style: none;
   color: white;
+  position: absolute;
+  right: 0;
+  width: 60%;
+}
+
+.burger {
+  position: absolute;
+  right: 5%;
+  top: 0;
+}
+
+nav ul {
+  display: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul ul {
+  padding: 0;
 }
 
 nav ul li {
   display: none;
 }
 
-nav ul:hover li {
+.unwrap:hover li {
   display: block;
+  padding: 0;
 }
 
-.white-color:hover {
+.white-colorbg {
+  padding: 0;
+}
+
+.white-colorbg:hover {
   background-color: white;
   color: #02504d;
-  padding: 0;
+}
+
+.white-colorbg:hover .white-color {
+  color: #02504d;
 }
 
 /*# sourceMappingURL=/main.1f19ae8e.css.map */
