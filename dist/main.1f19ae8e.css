@@ -114,9 +114,14 @@ header {
   color: #fece48;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .centrar-item {
   justify-content: center;
+}
+
+.white-color {
+  color: white;
 }
 footer {
   display: flex;
@@ -180,6 +185,27 @@ footer {
 .footer_item:nth-child(2) {
   width: 60%;
   max-width: 324px;
+}
+nav {
+  z-index: 1;
+  align-self: flex-start;
+  background-color: #02504d;
+  list-style: none;
+  color: white;
+}
+
+nav ul li {
+  display: none;
+}
+
+nav ul:hover li {
+  display: block;
+}
+
+.white-color:hover {
+  background-color: white;
+  color: #02504d;
+  padding: 0;
 }
 
 /*# sourceMappingURL=/main.1f19ae8e.css.map */

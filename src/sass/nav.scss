@@ -1,0 +1,24 @@
+@use 'variables';
+
+nav{
+    z-index: 1;
+    align-self: flex-start;
+    background-color: variables.$first-color;
+    list-style: none;
+    color: variables.$white-color;
+}
+
+nav ul li{
+    display: none;
+}
+
+nav ul:hover li{
+    display: block;
+}
+
+.white-color:hover{
+    background-color: variables.$white-color;
+    color: variables.$first-color;
+    padding: 0;
+    
+}
