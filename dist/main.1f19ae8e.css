@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
 * {
   box-sizing: border-box;
   padding: 0 0 0 0;
@@ -37,6 +38,9 @@
 .card--parents {
   background-image: url(https://media.istockphoto.com/photos/dad-and-little-girl-with-medical-masks-at-airport-protection-against-picture-id1317303050?k=20&m=1317303050&s=612x612&w=0&h=12IT4fYHkuQ8-J3lQee9cUb3s1uUkbKI2tXC4AJmCw8=);
 }
+.card--contact {
+  background-image: url(https://media.istockphoto.com/photos/taking-in-the-sights-picture-id889513382?k=20&m=889513382&s=612x612&w=0&h=OYF0XtV4O2k87CFwRcGAPQq9SxCHitrvWNrAKSrdHO8=);
+}
 
 .info-sum {
   display: flex;
@@ -44,6 +48,7 @@
   align-items: center;
   justify-content: center;
 }
+@import url(https://fonts.googleapis.com/css?family=Raleway);
 body {
   background-color: white;
 }
@@ -105,6 +110,7 @@ a {
   margin: 0;
   padding: 0;
 }
+@import url(https://fonts.googleapis.com/css?family=Raleway);
 header {
   top: 0px;
   width: 100%;
@@ -114,10 +120,22 @@ header {
   color: #fece48;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
+@import url(https://fonts.googleapis.com/css?family=Raleway);
 .centrar-item {
   justify-content: center;
 }
+
+.white-color {
+  color: white;
+}
+
+.margin-xl {
+  margin: 32px;
+  line-height: 32px;
+}
+@import url(https://fonts.googleapis.com/css?family=Raleway);
 footer {
   display: flex;
   flex-wrap: wrap;
@@ -131,7 +149,7 @@ footer {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 16px 0 16px 16px;
+  padding: 16px 0 16px 0;
 }
 
 .logo-trinity {
@@ -180,6 +198,76 @@ footer {
 .footer_item:nth-child(2) {
   width: 60%;
   max-width: 324px;
+}
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+nav {
+  z-index: 1;
+  align-self: flex-start;
+  background-color: #02504d;
+  list-style: none;
+  color: white;
+  position: absolute;
+  right: 0;
+}
+
+.burger {
+  position: absolute;
+  cursor: pointer;
+  right: 8px;
+  top: 8px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+.menu {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+nav ul ul {
+  padding: 0;
+}
+
+nav ul li {
+  display: none;
+}
+
+.unwrap {
+  margin: 32px 0 0 0;
+  font-weight: 600;
+}
+
+.unwrap p {
+  padding-left: 32px;
+}
+
+.unwrap:hover p {
+  background-color: white;
+  color: #02504d;
+}
+
+.unwrap:hover li {
+  display: block;
+  padding: 0;
+}
+
+.white-colorbg {
+  padding: 0;
+}
+
+.white-colorbg:hover {
+  background-color: white;
+  color: #02504d;
+}
+
+.white-colorbg:hover .white-color {
+  color: #02504d;
 }
 
 /*# sourceMappingURL=/main.1f19ae8e.css.map */

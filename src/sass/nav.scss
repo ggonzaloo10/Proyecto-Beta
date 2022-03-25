@@ -1,0 +1,71 @@
+@use 'variables';
+
+nav{
+    z-index: 1;
+    align-self: flex-start;
+    background-color: variables.$first-color;
+    list-style: none;
+    color: variables.$white-color;
+    position: absolute;
+    right: 0;
+}
+
+.burger{
+    position: absolute;
+    cursor: pointer;
+    right: variables.$unit;
+    top: variables.$unit;
+}
+
+nav ul{
+    padding: 0;
+    margin: 0;
+}
+
+.menu{
+    display: none;
+}
+
+.active{
+    display: block;
+}
+
+nav ul ul{
+    padding: 0;
+}
+
+nav ul li{
+    display: none;
+}
+.unwrap{
+    margin: variables.$xl-space 0 0 0;
+    font-weight: 600;
+}
+
+.unwrap p{
+    padding-left: variables.$xl-space;
+}
+
+.unwrap:hover p{
+    background-color: variables.$white-color;
+    color: variables.$first-color;
+}
+
+.unwrap:hover li{
+    display: block;
+    padding: 0;
+}
+
+
+.white-colorbg{
+    padding: 0;
+}
+
+.white-colorbg:hover{
+    background-color: variables.$white-color;
+    color: variables.$first-color;
+}
+
+.white-colorbg:hover .white-color{
+    color: variables.$first-color;
+}

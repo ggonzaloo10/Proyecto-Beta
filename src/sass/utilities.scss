@@ -1,3 +1,15 @@
+@use 'variables';
+
 .centrar-item{
     justify-content: center;
+}
+
+.white-color{
+    color: white;
+
+}
+
+.margin-xl{
+    margin: variables.$xl-space;
+    line-height: variables.$xl-space;
 }
