@@ -38,8 +38,17 @@ nav ul li{
     display: none;
 }
 .unwrap{
-    margin: variables.$xl-space 0 0 variables.$xl-space;
+    margin: variables.$xl-space 0 0 0;
     font-weight: 600;
+}
+
+.unwrap p{
+    padding-left: variables.$xl-space;
+}
+
+.unwrap:hover p{
+    background-color: variables.$white-color;
+    color: variables.$first-color;
 }
 
 .unwrap:hover li{

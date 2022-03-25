@@ -230,8 +230,17 @@ nav ul li {
 }
 
 .unwrap {
-  margin: 32px 0 0 32px;
+  margin: 32px 0 0 0;
   font-weight: 600;
+}
+
+.unwrap p {
+  padding-left: 32px;
+}
+
+.unwrap:hover p {
+  background-color: white;
+  color: #02504d;
 }
 
 .unwrap:hover li {
