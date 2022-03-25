@@ -8,19 +8,26 @@ nav{
     color: variables.$white-color;
     position: absolute;
     right: 0;
-    width: 60%;
 }
 
 .burger{
     position: absolute;
-    right: 5%;
-    top: 0;
+    cursor: pointer;
+    right: variables.$unit;
+    top: variables.$unit;
 }
 
 nav ul{
-    display: none;
     padding: 0;
     margin: 0;
+}
+
+.menu{
+    display: none;
+}
+
+.active{
+    display: block;
 }
 
 nav ul ul{
@@ -29,6 +36,10 @@ nav ul ul{
 
 nav ul li{
     display: none;
+}
+.unwrap{
+    margin: variables.$xl-space 0 0 variables.$xl-space;
+    font-weight: 600;
 }
 
 .unwrap:hover li{
