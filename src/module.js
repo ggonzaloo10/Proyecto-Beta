@@ -3,9 +3,3 @@ const saludar = () =>{
 }
 
 export {saludar}
-
-import './sass/site.scss';
-import './sass/style.scss';
-import './sass/header.scss';
-import './sass/utilities.scss';
-import './sass/footer.scss';
