@@ -6,6 +6,7 @@ import './sass/header.scss';
 import './sass/utilities.scss';
 import './sass/footer.scss';
 import './sass/nav.scss';
+import './sass/mediaqueries.scss';
 
 import { saludar } from "./module.js";
 
