@@ -2,6 +2,7 @@
 
 .centrar-item{
     justify-content: center;
+    align-items: center;
 }
 
 .white-color{
@@ -12,4 +13,8 @@
 .margin-xl{
     margin: variables.$xl-space;
     line-height: variables.$xl-space;
+}
+
+.self-align-end{
+    align-self: flex-end;
 }
