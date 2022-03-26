@@ -68,6 +68,13 @@ $breakpoint-tablet: 740px;
       }
 }
 
+@media (max-width: $breakpoint-tablet){
+  .container{
+    flex-direction: column;
+  }
+}
+
+
 @media (min-width: $breakpoint-tablet) and (max-width: $breakpoint-desktop) {
     .container {
         display: flex;
@@ -88,5 +95,5 @@ $breakpoint-tablet: 740px;
         margin: variables.$xl-space variables.$space;
         
       }
-
+    
 }
