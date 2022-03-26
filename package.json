@@ -4,7 +4,7 @@
   "description": "En este proyecto se pretende crear una página web de cursos de inglés en Irlanda.",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel src/index.html",
+    "dev": "parcel src/*.html",
     "pro": "parcel build src/index.html"
   },
   "keywords": [],
