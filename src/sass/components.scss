@@ -1,0 +1,91 @@
+@use 'variables';
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+    &--info-page{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.card{
+    width: 100%;
+    height: 280px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    color: variables.$first-color;
+
+    &--intro{
+        background-image: url(https://www.petitfute.com/medias/mag/12687/835/9495-les-10-incontournables-de.jpg);
+       
+    }
+
+    &--spacer{
+      background-image: url(https://www.uazuay.edu.ec/sites/default/files/public/styles/noticias/public/2021-03/WhatsApp%20Image%202021-03-20%20at%2019.24.20.jpeg.webp?itok=wpRWPzbV);
+     
+  }
+  
+  &--ireland{
+      background-image: url(https://dingoos.com/wp-content/uploads/2019/11/mejor-pais-para-estudiar-ingles-3.jpg);
+  }
+
+  &--trips{
+      background-image: url(https://www.lavanguardia.com/uploads/2019/12/13/5fa5377689728.jpeg);
+  }
+
+  &--parents{
+      background-image: url(https://media.istockphoto.com/photos/dad-and-little-girl-with-medical-masks-at-airport-protection-against-picture-id1317303050?k=20&m=1317303050&s=612x612&w=0&h=12IT4fYHkuQ8-J3lQee9cUb3s1uUkbKI2tXC4AJmCw8=);
+  }
+
+  &--contact{
+      background-image: url(https://media.istockphoto.com/photos/taking-in-the-sights-picture-id889513382?k=20&m=889513382&s=612x612&w=0&h=OYF0XtV4O2k87CFwRcGAPQq9SxCHitrvWNrAKSrdHO8=);
+  }
+}
+
+.info-prog{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    &--page{
+        margin: 24px 0;
+        height: auto;
+    }
+    
+}
+
+.buttoncontainer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: variables.$xl-space*2;
+}
+
+.button-info{
+    max-width: 250px;
+    height: auto;
+    background: variables.$white-color;
+    border: 4px solid variables.$logo-color;
+    box-sizing: border-box;
+    border-radius: variables.$micro-space;
+    font-style: normal;
+    font-weight: 600;
+    font-size: variables.$unit*3;
+    line-height: variables.$unit*3.5;
+    color: variables.$first-color;
+    text-decoration: none;
+    padding: variables.$space;
+    text-align: left;
+    cursor: pointer;
+    margin: variables.$xl-space;
+}
