@@ -7,17 +7,17 @@ $breakpoint-tablet: 740px;
 
 @media (min-width: $breakpoint-desktop) {
 
-    .card:nth-child(1) h1{
+    .card-landing:nth-child(1) h1{
         font-size: variables.$xxl-space*2.5;
         line-height: variables.$xxl-space*2.5;
     }
 
-    .card:nth-child(8) h1{
+    .card-landing:nth-child(8) h1{
         font-size: variables.$xxl-space*2;
         line-height: variables.$xxl-space*2;
     }
 
-    .container {
+    .container-landing {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -26,7 +26,7 @@ $breakpoint-tablet: 740px;
         align-content: stretch;
       }
       
-      .card:nth-child(1) {
+      .card-landing:nth-child(1) {
         flex-grow: 0;
         flex-shrink: 1;
         flex-basis: auto;
@@ -36,7 +36,7 @@ $breakpoint-tablet: 740px;
         height: 100vh;
       }
       
-      .card:nth-child(2), .card:nth-child(3){
+      .card-landing:nth-child(2), .card-landing:nth-child(3){
         flex-grow: 0;
         flex-shrink: 1;
         flex-basis: auto;
@@ -47,7 +47,7 @@ $breakpoint-tablet: 740px;
         
       }
       
-      .card:nth-child(4), .card:nth-child(5), .card:nth-child(6), .card:nth-child(7){
+      .card-landing:nth-child(4), .card-landing:nth-child(5), .card-landing:nth-child(6), .card-landing:nth-child(7){
         flex-grow: 0;
         flex-shrink: 1;
         flex-basis: auto;
@@ -57,7 +57,7 @@ $breakpoint-tablet: 740px;
         margin: variables.$xl-space variables.$space;
       }
       
-      .card:nth-child(8) {
+      .card-landing:nth-child(8) {
         flex-grow: 0;
         flex-shrink: 1;
         flex-basis: auto;
@@ -69,14 +69,14 @@ $breakpoint-tablet: 740px;
 }
 
 @media (max-width: $breakpoint-tablet){
-  .container{
+  .container-landing{
     flex-direction: column;
   }
 }
 
 
 @media (min-width: $breakpoint-tablet) and (max-width: $breakpoint-desktop) {
-    .container {
+    .container-landing {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -85,7 +85,7 @@ $breakpoint-tablet: 740px;
         align-content: stretch;
       }
 
-    .card:nth-child(4), .card:nth-child(5), .card:nth-child(6), .card:nth-child(7){
+    .card-landing:nth-child(4), .card-landing:nth-child(5), .card-landing:nth-child(6), .card-landing:nth-child(7){
         flex-grow: 0;
         flex-shrink: 1;
         flex-basis: auto;
