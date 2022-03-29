@@ -1,5 +1,5 @@
-const saludar = () =>{
-    return 'hola parcel desde module';
-}
+// const saludar = () =>{
+//     return 'hola parcel desde module';
+// }
 
-export {saludar}
+// export {saludar}
