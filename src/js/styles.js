@@ -7,3 +7,4 @@ import '../sass/utilities.scss';
 import '../sass/footer.scss';
 import '../sass/nav.scss';
 import '../sass/mediaqueries.scss';
+import '../sass/form.scss';
