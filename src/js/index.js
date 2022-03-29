@@ -3,5 +3,5 @@ document.getElementById("menu").classList.toggle("active");
       });
     
 document.getElementById("logo").addEventListener("click", (event) =>{
-window.open("../pages/index.html","_blank");
+window.open("../pages/index.html",'_self');
       });
