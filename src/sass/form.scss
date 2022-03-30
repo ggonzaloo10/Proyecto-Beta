@@ -2,8 +2,10 @@
 
 
 .contactMe{
-    width: 90%;
     background: variables.$white-color;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 form{
@@ -11,6 +13,7 @@ form{
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 360px;
 }
 
 
@@ -50,7 +53,7 @@ form button{
     width: 80px;
     height: 24px;
     margin: variables.$big-space 0 0;
-    background: #FD7D02;
+    background: variables.$second-color;
     box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.35);
     border-radius: 8px;
     border-style: none;
@@ -58,4 +61,16 @@ form button{
     color: variables.$white-color;
     font-family: variables.$text-font;
     font-weight: 400;
+    cursor: pointer;
+    transform: scale(1);
+	transition: .4s ease-in-out;
 }
+
+form button:hover {
+    transform: scale(1.1);
+    font-weight: 500;
+  }
+
+form button:active {
+    background: variables.$first-color;
+  }

@@ -34,6 +34,16 @@ h3{
     padding: variables.$medium-space variables.$medium-space variables.$micro-space;
 }
 
+h4{
+    font-family: variables.$title-font;
+    font-style: normal;
+    font-weight: 600;
+    color: variables.$first-color;
+    font-size: variables.$space;
+    line-height: variables.$big-space;
+    padding: 0 variables.$space;
+}
+
 ul {
     font-family: variables.$text-font;
     font-style: normal;
