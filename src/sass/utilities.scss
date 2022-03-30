@@ -10,6 +10,10 @@
 
 }
 
+.green-color{
+    color: variables.$first-color !important;;
+}
+
 .margin-xl{
     margin: variables.$xl-space;
     line-height: variables.$xl-space;

@@ -7,6 +7,14 @@ $breakpoint-tablet: 740px;
 
 @media (min-width: $breakpoint-desktop) {
 
+  .card--ireland-gif{
+    background-image: url(../img/ireland-moher-gif.gif);
+  }
+
+ul{
+  font-size: 16px;
+}  
+
 .card--intro{
   background-attachment: fixed;
 }
@@ -14,8 +22,9 @@ $breakpoint-tablet: 740px;
   /* Zoom In #1 */
 .hover01 {
 	transform: scale(1);
-	transition: .4s ease-in-out;
+	transition: .35s ease-in-out;
 }
+
 .hover01:hover {
 	transform: scale(1.1);
 }
@@ -80,7 +89,19 @@ $breakpoint-tablet: 740px;
         width: 70%;
         height: 70vh;
       }
+
+.firstcard-fullscreen{
+  height: calc(100vh - 64px);
 }
+
+.firstcard-fullscreen h1{
+  font-size: variables.$xxl-space*2.5;
+  line-height: variables.$xxl-space*2.5;
+}
+
+}
+
+
 
 @media (max-width: $breakpoint-tablet){
   .container-landing{
@@ -90,6 +111,12 @@ $breakpoint-tablet: 740px;
 
 
 @media (min-width: $breakpoint-tablet) and (max-width: $breakpoint-desktop) {
+
+  .card--ireland-gif{
+    background-image: url(../img/ireland-moher-gif.gif);
+    background-attachment: fixed;
+  }
+
     .container-landing {
         display: flex;
         flex-direction: row;
