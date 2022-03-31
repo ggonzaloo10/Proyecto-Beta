@@ -1,5 +1,21 @@
 @use 'variables';
 
+.parpadea {
+    width: fit-content;
+  transform: rotateZ(90deg);
+    animation-name: parpadeo;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+  
+  
+  @keyframes parpadeo {  
+    0% { opacity: 1.0; }
+     50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+  }
+
 body{
     background-color: variables.$white-color;
 }
@@ -48,7 +64,7 @@ ul {
     font-family: variables.$text-font;
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 16px;
     line-height: variables.$big-space;
     padding: 0;
     list-style: none;
@@ -59,7 +75,7 @@ a {
     font-family: variables.$text-font;
     font-style: normal;
     font-weight: 600;
-    font-size: 12px;
+    font-size: 16px;
     line-height: variables.$space;
     color: variables.$first-color;
     text-decoration: none;
@@ -74,4 +90,6 @@ a {
 
 p{
     font-family: variables.$text-font;
+    font-size: 16px;
+    line-height: 24px;
 }

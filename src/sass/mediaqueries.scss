@@ -7,6 +7,47 @@ $breakpoint-tablet: 740px;
 
 @media (min-width: $breakpoint-desktop) {
 
+  .height-70{
+    height: 70vh;
+  }
+
+  .container-fullscreen{
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .item-fullscreen-50{
+    width: 50%;
+    max-width: 600px;
+    margin-bottom: 5%;
+    flex-grow: 0;
+    flex-shrink: 1;
+  }
+  .item-order-4{
+    order: 4;
+  }
+
+  .item-order-3{
+    order: 3;
+  }
+
+  .item-order-1{
+    order: 1;
+  }
+
+  .item-fullscreen-100{
+    width: 100%;
+  }
+
+  .font-16{
+    font-size: variables.$unit*2;
+  }
+  .space-top-16{
+    padding-top: 16px;
+}
+
   .card--ireland-gif{
     background-image: url(../img/ireland-moher-gif.gif);
   }
@@ -56,7 +97,7 @@ ul{
         align-self: auto;
         order: 0;
         width: 100%;
-        height: calc(100vh - 64px);
+        height: calc(85vh - 64px);
       }
       
       .card-landing:nth-child(2), .card-landing:nth-child(3){
@@ -91,7 +132,7 @@ ul{
       }
 
 .firstcard-fullscreen{
-  height: calc(100vh - 64px);
+  height: calc(85vh - 64px);
 }
 
 .firstcard-fullscreen h1{
@@ -104,6 +145,8 @@ ul{
 
 
 @media (max-width: $breakpoint-tablet){
+
+  
   .container-landing{
     flex-direction: column;
   }
@@ -111,6 +154,42 @@ ul{
 
 
 @media (min-width: $breakpoint-tablet) and (max-width: $breakpoint-desktop) {
+
+  
+  .height-70{
+    height: 70vh;
+  }
+
+  .container-fullscreen{
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .item-fullscreen-50{
+    width: 50%;
+    max-width: 600px;
+    margin-bottom: 5%;
+    flex-grow: 0;
+    flex-shrink: 1;
+  }
+
+  .item-order-4{
+    order: 4;
+  }
+
+  .item-order-3{
+    order: 3;
+  }
+
+  .item-order-1{
+    order: 1;
+  }
+
+  .height-70{
+    height: 70vh;
+  }
 
   .card--ireland-gif{
     background-image: url(../img/ireland-moher-gif.gif);
