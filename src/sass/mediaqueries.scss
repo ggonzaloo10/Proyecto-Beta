@@ -7,8 +7,11 @@ $breakpoint-tablet: 740px;
 
 @media (min-width: $breakpoint-desktop) {
 
+
   .height-70{
-    height: 70vh;
+    
+    height: 100vh;
+    padding: 24px;
   }
 
   .container-fullscreen{
@@ -97,7 +100,7 @@ ul{
         align-self: auto;
         order: 0;
         width: 100%;
-        height: calc(85vh - 64px);
+        height: calc(100vh - 64px);
       }
       
       .card-landing:nth-child(2), .card-landing:nth-child(3){
@@ -132,7 +135,7 @@ ul{
       }
 
 .firstcard-fullscreen{
-  height: calc(85vh - 64px);
+  height: calc(100vh - 64px);
 }
 
 .firstcard-fullscreen h1{
