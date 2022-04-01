@@ -1,0 +1,802 @@
+@import "https://fonts.googleapis.com/css?family=Raleway";
+@import "https://fonts.googleapis.com/css?family=Raleway";
+@import "https://fonts.googleapis.com/css?family=Raleway";
+@import "https://fonts.googleapis.com/css?family=Raleway";
+@import "https://fonts.googleapis.com/css?family=Raleway";
+@import "https://fonts.googleapis.com/css?family=Raleway";
+@import "https://fonts.googleapis.com/css?family=Raleway";
+@import "https://fonts.googleapis.com/css?family=Raleway";
+@import "https://fonts.googleapis.com/css?family=Raleway";
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.container--info-page {
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  width: 100%;
+  height: 280px;
+  color: #02504d;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  display: flex;
+}
+
+.card--intro {
+  background-image: url("ireland-cliffs-2.881e15be.jpg");
+}
+
+.card--spacer {
+  background-image: url("https://www.uazuay.edu.ec/sites/default/files/public/styles/noticias/public/2021-03/WhatsApp%20Image%202021-03-20%20at%2019.24.20.jpeg.webp?itok=wpRWPzbV");
+}
+
+.card--ireland {
+  background-image: url("https://dingoos.com/wp-content/uploads/2019/11/mejor-pais-para-estudiar-ingles-3.jpg");
+}
+
+.card--trips {
+  background-image: url("galwaystreethd.df24ef4f.jpg");
+}
+
+.card--parents {
+  background-image: url("https://media.istockphoto.com/photos/dad-and-little-girl-with-medical-masks-at-airport-protection-against-picture-id1317303050?k=20&m=1317303050&s=612x612&w=0&h=12IT4fYHkuQ8-J3lQee9cUb3s1uUkbKI2tXC4AJmCw8=");
+}
+
+.card--contact {
+  background-image: url("contact.10ec324e.png");
+}
+
+.card--infospacer {
+  background-image: url("students-talking.8567d6df.png");
+}
+
+.card--castlebar {
+  background-image: url("castlebar.0d11e5ee.png");
+}
+
+.card--castlebar-street {
+  background-image: url("castlebar-street.e5a8028e.png");
+}
+
+.card--casas {
+  background-image: url("casas-irlandesas.7ed6ae4a.png");
+}
+
+.card--dublin {
+  background-image: url("dublin.83a41508.png");
+}
+
+.card--dublin-bridge {
+  background-image: url("dublin-bridge.93963f80.png");
+}
+
+.card--dublin-spire {
+  background-image: url("dublin-spire.f0bd31f0.png");
+}
+
+.card--templebar {
+  background-image: url("temple-bar.3cfecb61.jpg");
+}
+
+.card--galway {
+  background-image: url("galway.fb9465cd.png");
+}
+
+.card--moher {
+  background-image: url("moher-cliff-800.f3d464cc.jpg");
+}
+
+.card--calzada-gigantes {
+  background-image: url("giants-800.a5a76988.jpg");
+}
+
+.card--activity-1 {
+  background-image: url("activity-1.93b6a82a.png");
+}
+
+.card--activity-2 {
+  background-image: url("activity-2.61f4846c.png");
+}
+
+.card--activity-3 {
+  background-image: url("activity-3_edit.f305e174.jpg");
+}
+
+.card--map {
+  background-image: url("ireland-map.92f25666.png");
+}
+
+.info-prog {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.info-prog--page {
+  height: auto;
+  max-width: 800px;
+  margin: 24px 0;
+  padding: 0 16px;
+}
+
+.info-sum {
+  flex-direction: column;
+  display: flex;
+}
+
+.buttoncontainer {
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 64px;
+  display: flex;
+}
+
+.button-info {
+  max-width: 250px;
+  height: auto;
+  box-sizing: border-box;
+  color: #02504d;
+  text-align: left;
+  cursor: pointer;
+  background: #fff;
+  border: 4px solid #fece48;
+  border-radius: 8px;
+  margin: 32px 32px 0;
+  padding: 18px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.parpadea {
+  width: fit-content;
+  animation-name: parpadeo;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  transform: rotateZ(90deg);
+}
+
+@keyframes parpadeo {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+body {
+  background-color: #fff;
+}
+
+h1 {
+  color: #fff;
+  text-align: right;
+  padding: 16px;
+  font-family: Catamaran, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 40px;
+}
+
+h2 {
+  padding: 16px;
+  font-family: Catamaran, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+h3 {
+  color: #fece48;
+  padding: 16px 16px 4px;
+  font-family: Catamaran, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+h4 {
+  color: #02504d;
+  padding: 0 18px;
+  font-family: Catamaran, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+ul {
+  margin: 0 16px 8px;
+  padding: 0;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  list-style: none;
+}
+
+a {
+  color: #02504d;
+  padding-bottom: 32px;
+  padding-right: 32px;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px;
+  text-decoration: none;
+}
+
+.card-link {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+header {
+  width: 100%;
+  height: 64px;
+  color: #fece48;
+  background-color: #02504d;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  display: flex;
+  top: 0;
+}
+
+#logo {
+  cursor: pointer;
+}
+
+.centrar-item {
+  justify-content: center;
+  align-items: center;
+}
+
+.white-color {
+  color: #fff;
+}
+
+.green-color {
+  color: #02504d !important;
+}
+
+.margin-xl {
+  margin: 32px;
+  line-height: 32px;
+}
+
+.self-align-end {
+  align-self: flex-end;
+}
+
+.cardtext-align {
+  text-align: left;
+  align-items: flex-start;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.space-top-12 {
+  padding-top: 12px;
+}
+
+.space-top-32 {
+  padding-top: 32px;
+}
+
+.space-32 {
+  padding: 32px 0;
+}
+
+.margin-top-32 {
+  margin-top: 32px;
+}
+
+footer {
+  background: #02504d;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 18px;
+  display: flex;
+}
+
+.logos-wrap {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0;
+  display: flex;
+}
+
+.logo-trinity {
+  width: 102px;
+  height: 53px;
+  background-image: url("https://docenciayformacion.es/wp-content/uploads/2020/01/logo-vector-trinity-college-london.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex: none;
+  order: 1;
+}
+
+.logo-cambridge {
+  width: 102px;
+  height: 53px;
+  background-image: url("https://sagradosanluis.edu.mx/wp-content/uploads/2019/07/cambridge-logo-web-contenido.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex: none;
+  order: 2;
+}
+
+.rrss {
+  width: 100%;
+  flex-direction: row;
+  flex: none;
+  order: 3;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0;
+  display: flex;
+}
+
+.rrss_item {
+  padding: 0;
+  display: flex;
+}
+
+.footer_item a {
+  color: #fff;
+}
+
+.footer_item:nth-child(2) {
+  width: 60%;
+  max-width: 324px;
+}
+
+nav {
+  z-index: 1;
+  color: #fff;
+  background-color: #02504d;
+  align-self: flex-start;
+  list-style: none;
+  position: absolute;
+  right: 0;
+}
+
+.burger {
+  cursor: pointer;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+.cross {
+  cursor: pointer;
+  display: none;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+.menu-icon {
+  cursor: pointer;
+  justify-content: flex-end;
+  margin: 8px 16px;
+  display: flex;
+}
+
+nav ul ul {
+  padding: 0;
+}
+
+nav ul li {
+  padding: 0;
+  display: none;
+}
+
+.unwrap {
+  cursor: pointer;
+  margin: 20px 0 0;
+  font-weight: 600;
+}
+
+.unwrap p {
+  padding-left: 32px;
+}
+
+.unwrap:hover p {
+  color: #02504d;
+  background-color: #fff;
+}
+
+.white-colorbg {
+  padding: 0;
+}
+
+.white-colorbg:hover {
+  color: #02504d;
+  background-color: #fff;
+}
+
+.white-colorbg:hover .white-color {
+  color: #02504d;
+}
+
+@media (min-width: 1375px) {
+  .white-color:hover {
+    color: #fff;
+  }
+
+  .white-colorbg {
+    background-color: #02504d;
+  }
+
+  .white-colorbg:hover, .unwrap:hover p {
+    color: #fff;
+    background-color: #02504d;
+  }
+
+  .makebig:hover {
+    color: #fff;
+  }
+
+  .white-colorbg a {
+    transition: all .35s ease-in-out;
+    transform: scale(1);
+  }
+
+  .white-colorbg:hover .white-color {
+    color: #fff;
+    transform: scale(1.1);
+  }
+
+  .white-colorbg:hover a {
+    transform: scale(1.1);
+  }
+
+  .margin-xl {
+    margin: 0 0 0 8px;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  .menu {
+    align-items: center;
+    display: flex;
+  }
+
+  .unwrap {
+    margin: 0 32px 0 0;
+  }
+
+  .unwrap li {
+    position: absolute;
+    left: 32px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .height-70 {
+    height: 100vh;
+    padding: 24px;
+  }
+
+  .container-fullscreen {
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .item-fullscreen-50 {
+    width: 50%;
+    max-width: 600px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    margin-bottom: 5%;
+  }
+
+  .item-order-4 {
+    order: 4;
+  }
+
+  .item-order-3 {
+    order: 3;
+  }
+
+  .item-order-1 {
+    order: 1;
+  }
+
+  .item-fullscreen-100 {
+    width: 100%;
+  }
+
+  .font-16 {
+    font-size: 16px;
+  }
+
+  .space-top-16 {
+    padding-top: 16px;
+  }
+
+  .card--ireland-gif {
+    background-image: url("ireland-moher-gif.b78b703e.gif");
+  }
+
+  ul {
+    font-size: 16px;
+  }
+
+  .card--intro {
+    background-attachment: fixed;
+  }
+
+  .hover01 {
+    transition: all .35s ease-in-out;
+    transform: scale(1);
+  }
+
+  .hover01:hover {
+    transform: scale(1.1);
+  }
+
+  .card-landing:nth-child(1) h1 {
+    font-size: 100px;
+    line-height: 100px;
+  }
+
+  .card-landing:nth-child(8) h1 {
+    font-size: 80px;
+    line-height: 80px;
+  }
+
+  .container-landing {
+    flex-flow: wrap;
+    place-content: stretch center;
+    align-items: stretch;
+    display: flex;
+  }
+
+  .card-landing:nth-child(1) {
+    width: 100%;
+    height: calc(100vh - 64px);
+    flex: 0 auto;
+    order: 0;
+    align-self: auto;
+  }
+
+  .card-landing:nth-child(2), .card-landing:nth-child(3) {
+    width: 50%;
+    height: 70vh;
+    flex: 0 auto;
+    order: 0;
+    align-self: auto;
+  }
+
+  .card-landing:nth-child(4), .card-landing:nth-child(5), .card-landing:nth-child(6), .card-landing:nth-child(7) {
+    width: 20%;
+    flex: 0 auto;
+    order: 0;
+    align-self: auto;
+    margin: 32px 18px;
+  }
+
+  .card-landing:nth-child(8) {
+    width: 70%;
+    height: 70vh;
+    flex: 0 auto;
+    order: 0;
+    align-self: auto;
+  }
+
+  .firstcard-fullscreen {
+    height: calc(100vh - 64px);
+  }
+
+  .firstcard-fullscreen h1 {
+    font-size: 100px;
+    line-height: 100px;
+  }
+}
+
+@media (max-width: 740px) {
+  .container-landing {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 740px) and (max-width: 1200px) {
+  .hover01 {
+    transition: all .35s ease-in-out;
+    transform: scale(1);
+  }
+
+  .hover01:hover {
+    transform: scale(1.1);
+  }
+
+  .height-70 {
+    height: 70vh;
+  }
+
+  .container-fullscreen {
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .item-fullscreen-50 {
+    width: 50%;
+    max-width: 600px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    margin-bottom: 5%;
+  }
+
+  .item-order-4 {
+    order: 4;
+  }
+
+  .item-order-3 {
+    order: 3;
+  }
+
+  .item-order-1 {
+    order: 1;
+  }
+
+  .height-70 {
+    height: 70vh;
+  }
+
+  .card--ireland-gif {
+    background-image: url("ireland-moher-gif.b78b703e.gif");
+    background-attachment: fixed;
+  }
+
+  .container-landing {
+    flex-flow: wrap;
+    place-content: stretch center;
+    align-items: stretch;
+    display: flex;
+  }
+
+  .card-landing:nth-child(4), .card-landing:nth-child(5), .card-landing:nth-child(6), .card-landing:nth-child(7) {
+    width: 45%;
+    flex: 0 auto;
+    order: 0;
+    align-self: auto;
+    margin: 32px 18px;
+  }
+}
+
+.contactMe {
+  background: #fff;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+form {
+  max-width: 360px;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.text-field, textarea {
+  width: 100%;
+  height: 38px;
+  background-color: #fece48;
+  border-style: none;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  padding: 8px 12px;
+  font-size: 14px;
+  display: block;
+}
+
+textarea {
+  height: 64px;
+}
+
+::placeholder {
+  color: #02504d;
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+}
+
+form div {
+  width: 100%;
+  padding: 24px 0 0;
+}
+
+form button {
+  width: 80px;
+  height: 24px;
+  color: #fff;
+  cursor: pointer;
+  background: #fc7b03;
+  border-style: none;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  margin: 24px 0 0;
+  padding: 16px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  transition: all .4s ease-in-out;
+  display: flex;
+  transform: scale(1);
+  box-shadow: 2px 2px 15px #00000059;
+}
+
+form button:hover {
+  font-weight: 500;
+  transform: scale(1.1);
+}
+
+form button:active {
+  background: #02504d;
+}
+
+/*# sourceMappingURL=contacto.10a5cc18.css.map */
