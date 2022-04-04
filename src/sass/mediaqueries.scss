@@ -71,7 +71,10 @@ color: variables.$white-color;
 
 
 @media (min-width: $breakpoint-desktop) {
-
+  
+  .max-width-1000{
+    max-width: 1000px;
+  }
  
   .height-70{
     

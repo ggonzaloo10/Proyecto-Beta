@@ -543,6 +543,10 @@ nav ul li {
 }
 
 @media (min-width: 1200px) {
+  .max-width-1000 {
+    max-width: 1000px;
+  }
+
   .height-70 {
     height: 100vh;
     padding: 24px;
