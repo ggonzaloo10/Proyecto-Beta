@@ -1,4 +1,4 @@
-# Proyecto-Beta
+# Proyecto-Beta: Curso de Inglés en Irlanda
 
 ## **Enlace a la web:** https://ggonzaloo10.github.io/index.html
 
