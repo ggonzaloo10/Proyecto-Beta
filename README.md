@@ -23,7 +23,7 @@ El proyecto se ha construido con los siguientes programas:
   - <a href="https://code.visualstudio.com/">Visual Studio Code</a>: editor de código fuente.
   - <a href="https://parceljs.org/">Parcel Js</a>: empaquetador de aplicaciones web.
 
-Para este proyecto, antes de comenzar con el diseño se realizó un estudio de los diferentes tipos de usuarios potenciales. Se elaboraron los siguientes perfiles de user persona, los cuales representan los más habituales que visitarían la web: Estudiantes, universitarios y padres de estudiantes.
+Para este proyecto, antes de comenzar con el diseño se realizó un estudio de los diferentes tipos de usuarios potenciales. Se elaboraron los siguientes perfiles de user persona, los cuales son los más representativos de cada tipo: Estudiantes, universitarios y padres de estudiantes.
 
 ![image](https://user-images.githubusercontent.com/92878148/169265914-a221c2e6-15d7-45ee-8df4-ee4834314215.png)
 ![image](https://user-images.githubusercontent.com/92878148/169265594-8577768f-0179-4ccd-80dd-a1353a2628dd.png)
