@@ -7,6 +7,10 @@
 
 En este proyecto se pretende crear una página web de cursos de inglés en Irlanda.
 
+## **Herramientas:**
+
+![image](https://user-images.githubusercontent.com/92878148/169273737-4c4980e7-0d60-46b9-822b-56c6aca19239.png)
+
 
 ## **Requisitos**
 ### **Instalación**
