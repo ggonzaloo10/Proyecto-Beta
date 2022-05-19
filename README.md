@@ -23,6 +23,9 @@ El proyecto se ha construido con los siguientes programas:
   - <a href="https://code.visualstudio.com/">Visual Studio Code</a>: editor de código fuente.
   - <a href="https://parceljs.org/">Parcel Js</a>: empaquetador de aplicaciones web.
 
+![image](https://user-images.githubusercontent.com/92878148/169265340-58258627-3d1b-4e32-8104-e5f05270301a.png)
+
+
 ## **Nomenclatura**
 
 ### **Clases**
