@@ -30,9 +30,10 @@ Para este proyecto, antes de comenzar con el diseño, se realizó un estudio de 
 ![image](https://user-images.githubusercontent.com/92878148/169265615-d5103a23-7579-4e39-8e9a-5d6b5f86d549.png)
 ![image](https://user-images.githubusercontent.com/92878148/169265640-022c1ff5-7f6f-489f-88c5-dad31229ce06.png)
 
-Una vez establecidos los user persona, se ideó un User flow para estos usuarios:
+Una vez establecidos los user persona, se ideó un User flow y un Sitemap para estos usuarios:
 
 ![image](https://user-images.githubusercontent.com/92878148/169267743-0b8eb87f-d754-46ff-b114-11e76308d42c.png)
+![image](https://user-images.githubusercontent.com/92878148/169267860-732a78eb-fb07-426e-8de3-7861fd3f9b9a.png)
 
 
 
