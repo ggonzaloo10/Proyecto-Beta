@@ -32,7 +32,8 @@ Para este proyecto, antes de comenzar con el diseño, se realizó un estudio de 
 
 Una vez establecidos los user persona, se ideó un User flow para estos usuarios:
 
-![image](https://user-images.githubusercontent.com/92878148/169267174-657ec452-e8c0-4767-965e-bb6d3fa3e6bd.png)
+![image](https://user-images.githubusercontent.com/92878148/169267743-0b8eb87f-d754-46ff-b114-11e76308d42c.png)
+
 
 
 
